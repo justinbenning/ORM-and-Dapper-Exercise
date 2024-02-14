@@ -19,7 +19,7 @@ namespace ORM_Dapper
 
             IDbConnection connection = new MySqlConnection(connString);
             
-            //var departmentRepo = new DapperDepartmentRepository(conn);
+            //var departmentRepo = new DapperDepartmentRepository(connection);
 
             //var departments = departmentRepo.GetAllDepartments();
 
